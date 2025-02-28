@@ -10,31 +10,14 @@ Your code implements a version of this surface using **point cloud rendering**, 
 ### **Understanding the Equation**
 Your code uses the following equation to generate the surface:
 
-\[
-x^4 + y^4 + z^4 + k_1 (x^2 + y^2 + z^2)^2 + k_2 a^2 (x^2 + y^2 + z^2) + k_3 a^4 = 0
-\]
-
-Where:
-- \( x, y, z \) are the 3D coordinates.
-- \( k_1, k_2, k_3 \) are constants that shape the surface.
-- \( a \) is a scaling factor affecting the overall structure.
-- \( (x^2 + y^2 + z^2) \) represents the squared radius from the origin.
-- \( (x^2 + y^2 + z^2)^2 \) represents the fourth power of the radius, influencing higher-order surface curvatures.
+![Image](https://github.com/user-attachments/assets/7186e3e7-e92e-4f9f-8892-9096340db498)
 
 ---
 
 ### **Breaking Down the Terms**
-1. **\( x^4 + y^4 + z^4 \)**
-   - These terms ensure the quartic nature of the equation, leading to symmetric curved structures.
 
-2. **\( k_1 (x^2 + y^2 + z^2)^2 \)**
-   - This term introduces a dependence on the squared radius, affecting the overall smoothness and shape of the surface.
+![Image](https://github.com/user-attachments/assets/bfeec191-0273-479a-a4a2-c16620a73112)
 
-3. **\( k_2 a^2 (x^2 + y^2 + z^2) \)**
-   - It scales the influence of quadratic terms, modifying the curvature and size of the shape.
-
-4. **\( k_3 a^4 \)**
-   - This is an additive constant that shifts the equation, changing the density of valid points.
 
 ---
 
@@ -46,10 +29,8 @@ Where:
 ---
 
 ### **Effect of Constants**
-- **\( k_1 \) (-0.5)**: Controls how the squared radius term affects curvature.
-- **\( k_2 \) (1)**: Affects the balance between different power terms.
-- **\( k_3 \) (-1.5)**: Modifies the overall size and distribution.
-- **\( a \) (2)**: Scales the impact of quadratic and quartic terms.
+
+![Image](https://github.com/user-attachments/assets/a0baccce-8273-4770-8a81-bd18f9b74e27)
 
 ---
 
