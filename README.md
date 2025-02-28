@@ -34,10 +34,7 @@ Your code uses the following equation to generate the surface:
 
 ---
 
-### **Summary**
+### **Short Note**
 - The **Goursat Quartic** is a fourth-degree algebraic surface.
 - The equation defines a **complex, symmetric 3D shape**.
-- The **constants \( k_1, k_2, k_3, a \)** allow tuning of its structure.
 - Your code **visualizes this shape** using a point cloud in **Three.js**.
-
-Would you like to tweak the parameters to explore different shapes? 🚀
